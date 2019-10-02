@@ -35,7 +35,6 @@ def create_html(valutes):
 def index():
     valutes = get_valutes_list()
     html = create_html(valutes)
-
     return html
 
 
